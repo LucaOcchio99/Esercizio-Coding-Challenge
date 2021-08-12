@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sfondo_sito {
+   height: 100vh;
+   width: 100vw;
+   background-color: lightgreen;
+   background-image: url(background.jpg);
+   background-size: cover;
+
+   position: relative;
+}
+
+#contenitore_principale {
+    height: 95vh;
+    width: 70vw;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+
+    border-radius: 10px;
+
+    background:black;
+    opacity: 0.7;
+}
+
+.vuoto {
+    height: 2vh;
+}
+
+.primo_settore {
+    height: 17vh;
+    width: 70vw;
+
+    background-image: url(logo.png);
+    background-size: contain;
+    background-repeat: no-repeat ;
+    background-position: center;
+}
+
+.secondo_settore {
+    height: 8vh;
+    width: 70vw;
+    font-size: 28px;
+
+    text-align: center;
+    line-height: 50px;
+
+    font-family: sans-serif;
+    color: lightgreen;
+}
+
+.terzo_settore {
+    height: 6vh;
+    width: 50vw;
+    background-color: green;
+
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input {
+    height: 30px;
+}
+
+.selezione {
+    height: 20vh;
+    width: 70vw;
+    border-bottom: 1px solid black;
+}
+
+.prima_riga {
+    height: 5vh;
+    width: 70vw;
+}
+
+#prima {
+    float: left;
+    margin-left: 10px;
+    margin-top: 4px;
+
+    font-size: 23px;
+    color: white;
+
+    font-family: sans-serif;
+
+}
+
+#inpu {
+    float: left;
+    margin-left: 138px;
+    margin-top: 2px;
+}
+
+.seconda_riga {
+    height: 5vh;
+    width: 70vw;
+
+    overflow: hidden;
+}
+
+#via {
+    margin-left: 138px;
+    margin-top: 7px;
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.terza_riga {
+    height: 5vh;
+    width: 70vw;
+
+    overflow: hidden;
+}
+
+#stato {
+    margin-left: 138px;
+    margin-top: 8px;
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.quarta_riga {
+    height: 5vh;
+    width: 70vw;
+
+    overflow: hidden;
+}
+
+#carica{
+    height: 3.5vh;
+    width: 27vw;
+    background-color: lightyellow;
+    border-radius: 5px;
+
+
+    margin-left: 138px;
+    margin-top: 4.5px;
+
+}
+
+#carica2 {
+    height: 3.5vh;
+    width: 35vw;
+    background-color: lightgreen;
+    border-radius: 5px;
+
+
+    margin-left: 138px;
+    margin-top: 4.5px;
+}
+
+#carica3 {
+    height: 3.5vh;
+    width: 15vw;
+    background-color: coral;
+    border-radius: 5px;
+
+    margin-left: 138px;
+    margin-top: 4.5px;
+}
